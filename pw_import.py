@@ -3,7 +3,7 @@ import os
 import shutil
 import toml
 import re
-from side_parse import pw_side_from_mr_env
+from util import pw_side_from_mr_env
 
 with open("modrinth.index.json") as readfile:
     modrinth_mods = json.load(readfile)["files"]
